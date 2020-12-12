@@ -38,6 +38,7 @@ const App = () => {
     } else if (value === "mc") {
       setMemory("0");
     } else if (value === "mr") {
+      alert(memory);
       if (memory === 0) {
         setMemory(a);
       } else {
@@ -179,7 +180,7 @@ const App = () => {
             <Text style={styles.btnText}>{result}</Text>
           </View>
         ) : (
-          <span>{memory}</span>
+          <Text style={styles.btnText}>{memory}</Text>
         )}
       </View>
       <View style={styles.buttons}>

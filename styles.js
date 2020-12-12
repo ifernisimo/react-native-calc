@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
   memo: {
     color: "red",
     position: "absolute",
-    top: 10,
+    top: 40,
     left: 10,
     fontSize: 8,
   },
